@@ -9,7 +9,7 @@
     <title>Triangle Quiz</title>
 </head>
 
-<body style="background-image: url(./images/imageedit_4_8524053197.png) ; color: black;">
+<body style="background-image: url(./images/quizTri.png) ; color: black; border: solid 5px coral;">
     <h1>Triangle Quiz</h1>
     <form class="quiz-form">
         <div class="question-container">
@@ -34,7 +34,7 @@
         </div>
         <hr>
         <div class="question-container ">
-            <p>4. If a triangle has angles 60, 80, 40, what is it called?</p>
+            <p>4. If a triangle has angles 60°, 80°, 40°, what is it called?</p>
             <label><input required type="radio" name="que4" value="acute">Acute angled triangle</label>
             <label><input required type="radio" name="que4" value="obtuse">Obtuse angled triangle</label>
             <label><input required type="radio" name="que4" value="right angled">Right angled triangle</label>
@@ -50,16 +50,33 @@
         <hr>
 
         <div class="question-container ">
-            <p>6. If a triangle has all sides euqal, what is it called?</p>
+            <p>6. If a triangle has all sides equal, what is it called?</p>
             <label><input required type="radio" name="que6" value="right angled">Right angled triangle</label>
             <label><input required type="radio" name="que6" value="Equilateral">Equilateral triangle</label>
-            <label><input required type="radio" name="que6" value="Isosceles">Isosceles triangke</label>
+            <label><input required type="radio" name="que6" value="Isosceles">Isosceles triangle</label>
         </div>
         <hr>
 
+        <div class="question-container ">
+            <p>7. An equilateral triangle has a side a. What is it's perimeter?</p>
+            <label><input required type="radio" name="que7" value="√3*a">√3*a</label>
+            <label><input required type="radio" name="que7" value="(√3*a)/2">(√3*a)/2</label>
+            <label><input required type="radio" name="que7" value="3*a">3*a</label>
+        </div>
+        <hr>
+
+        <div class="question-container ">
+            <p>8. In an isosceles angle, the base angle is 70°. What whould be the vertex angle? </p>
+            <label><input required type="radio" name="que8" value="40">40°</label>
+            <label><input required type="radio" name="que8" value="50">50°</label>
+            <label><input required type="radio" name="que8" value="45">45°</label>
+        </div>
+        <hr>
+        <button type="submit" id="submit-button">Submit</button>
+        <p id="output" style="text-align: center;"></p>
     </form>
-    <button id="submit-button">Submit</button>
-    <p id="output" style="text-align: center;"></p>
+
+
 
     <a class="link" href="./index.html">Is triangle?</a>
     <a class="link" href="./pythagoras.html">Check the hypotenus</a>
