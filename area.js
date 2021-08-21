@@ -19,7 +19,7 @@ calculateButton.addEventListener("click", function measureSide() {
 })
 
 function calculateArea() {
-    const area = 0.5 * (base.value) * (height.value);
+    const area = (0.5 * (base.value) * (height.value)).toFixed(2);
     showMessage("The area of this triangle is: " + area);
 
 }

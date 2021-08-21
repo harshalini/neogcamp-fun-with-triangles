@@ -20,7 +20,7 @@ calculateButton.addEventListener("click", function measureSide() {
 
 function calculateHypotenus() {
     const hypoSq = (Number(side1.value) * Number(side1.value)) + (Number(side2.value) * Number(side2.value));
-    const hypoSide = Math.sqrt(hypoSq);
+    const hypoSide = Math.sqrt(hypoSq).toFixed(2);
     showMessage("The hypotenus side is: " + hypoSide);
 
 }
